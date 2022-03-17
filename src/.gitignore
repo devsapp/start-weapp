@@ -1,0 +1,10 @@
+.idea
+node_modules
+dist
+layer
+logs/*.log
+coverage/
+build
+yarn.lock
+*.DS_Store
+.s

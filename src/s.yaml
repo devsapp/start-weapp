@@ -1,0 +1,50 @@
+# ------------------------------------
+#   欢迎您使用阿里云函数计算 FC 组件进行项目开发
+#   Yaml参考文档：https://github.com/devsapp/fc/blob/jiangyu-docs/docs/zh/yaml.md
+#   有问题快来钉钉群问一下吧：33947367
+# ------------------------------------
+
+edition: 1.0.0
+name: weapp
+access: "{{ access }}"
+
+vars: # 全局变量
+  region: "{{ region }}"
+  service:
+    name: "{{ serviceName }}"
+    nasConfig: auto
+
+services:
+  weapp-server:
+    component: fc
+    actions:
+      pre-deploy:
+        - run: ./scripts/build-online.sh
+          path: ./
+      #
+      # 如果您在云上构建，并不希望把 node_modules 直接打到代码包里，而是使用层来维护 node_modules，请使用下方的 pre-deploy。
+      # If you would like to use layer for node_modules instead of putting them in code.zip, please use the following pre-deploy.
+      #
+      # pre-deploy:
+      #   - run: ./scripts/build-online-with-layer.sh
+      #     path: ./
+      #
+    props:
+      region: ${vars.region}
+      service: ${vars.service}
+      function:
+        name: server
+        description: weapp server
+        codeUri: ./dist
+        runtime: nodejs12
+        timeout: 60
+      triggers:
+        - name: httpTrigger
+          type: http
+          config:
+            authType: anonymous
+            methods:
+              - GET
+              - PUT
+              - POST
+              - DELETE
