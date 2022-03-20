@@ -28,6 +28,8 @@
 
 可以在手机里使用你的小程序
 
+![try](https://img.alicdn.com/imgextra/i4/O1CN01anewVJ1gAlPEkkA1U_!!6000000004102-0-tps-258-258.jpg)
+
 ![view](https://img.alicdn.com/imgextra/i3/O1CN01tcjzXg1UKaVsUjhTw_!!6000000002499-0-tps-404-528.jpg)
 
 ## 整体体验流程
