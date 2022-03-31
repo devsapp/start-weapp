@@ -36,7 +36,7 @@ services:
         name: server
         description: weapp server
         codeUri: ./dist
-        runtime: nodejs12
+        runtime: nodejs14
         timeout: 60
       triggers:
         - name: httpTrigger
