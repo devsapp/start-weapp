@@ -15,6 +15,6 @@ docker run --name fc-local-build fc-local-build bash
 mkdir -p layer/nodejs
 docker cp fc-local-build:/code/layer/node_modules ./layer/nodejs
 
-s layer publish --layer-name weapp-server-node-modules --code ./layer --compatible-runtime nodejs12
+s layer publish --layer-name weapp-server-node-modules --code ./layer --compatible-runtime nodejs14
 
 rm -rf layer

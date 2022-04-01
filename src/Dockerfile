@@ -1,4 +1,4 @@
-FROM aliyunfc/runtime-nodejs12:build-latest
+FROM aliyunfc/runtime-nodejs14:build-latest
 
 COPY package.json /tmp/package.json
 RUN cd /tmp && npm install
