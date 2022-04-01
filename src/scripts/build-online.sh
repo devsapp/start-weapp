@@ -18,6 +18,6 @@ fi
 
 npm install
 npm run build
-cp ./package.json ./dist
+cp ./package.json ./dist/package.json
 cd ./dist
 npm install --only=prod
