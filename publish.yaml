@@ -16,6 +16,15 @@ Service:
   函数计算:
     Authorities:
       - AliyunFCFullAccess
+  硬盘挂载:
+    Authorities:
+      - AliyunNASFullAccess
+  VPC:
+    Authorities:
+      - AliyunVPCFullAccess
+  其它:
+    Authorities:
+      - AliyunECSNetworkInterfaceManagementAccess
 Parameters:
   type: object
   additionalProperties: false
