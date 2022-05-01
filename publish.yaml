@@ -2,7 +2,7 @@ Type: Application
 Name: start-weapp
 Provider:
   - 阿里云
-Version: 1.0.7
+Version: 1.0.8
 Description: 基于 TypeScript 和 hapi 框架构建的微信小程序后端 API 示例。同时也提供了对应的基于 React + Taro 的小程序客户端。
 HomePage: https://github.com/devsapp/start-weapp
 Tags:

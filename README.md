@@ -1,29 +1,58 @@
-## 🚀 一键部署
-您可以点击 点击`一键部署`按钮,进行快速体验
+# start-weapp 帮助文档
 
-[![Deploy with Severless Devs](https://img.alicdn.com/imgextra/i1/O1CN01w5RFbX1v45s8TIXPz_!!6000000006118-55-tps-95-28.svg)](https://fcnext.console.aliyun.com/applications/create?template=start-weapp)
-# 微信小程序案例
+<p align="center" class="flex justify-center">
+    <a href="https://www.serverless-devs.com" class="ml-1">
+    <img src="http://editor.devsapp.cn/icon?package=start-weapp&type=packageType">
+  </a>
+  <a href="http://www.devsapp.cn/details.html?name=start-weapp" class="ml-1">
+    <img src="http://editor.devsapp.cn/icon?package=start-weapp&type=packageVersion">
+  </a>
+  <a href="http://www.devsapp.cn/details.html?name=start-weapp" class="ml-1">
+    <img src="http://editor.devsapp.cn/icon?package=start-weapp&type=packageDownload">
+  </a>
+</p>
 
-> 快速部署和体验 Serverless 架构下的 Typescript + hapi + Taro + React 的微信小程序项目。
+<description>
 
-- [微信小程序案例](#微信小程序案例)
-  - [源代码](#源代码)
-  - [效果预览](#效果预览)
-  - [整体体验流程](#整体体验流程)
-  - [如何开发？](#如何开发)
-    - [小程序客户端](#小程序客户端)
-    - [准备](#准备)
-    - [替换 `s.yaml` 中的变量](#替换-syaml-中的变量)
-    - [本地开发](#本地开发)
-    - [通过云上应用中心部署](#通过云上应用中心部署)
-    - [通过本地环境部署](#通过本地环境部署)
-    - [通过本地环境部署（不包括 node_modules）](#通过本地环境部署不包括-node_modules)
-    - [创建并发布层](#创建并发布层)
-## 源代码
+> ***基于 TypeScript 和 hapi 框架构建的微信小程序后端 API 示例。同时也提供了对应的基于 React + Taro 的小程序客户端。***
+
+</description>
+
+<table>
+
+
+
+</table>
+
+<codepre id="codepre">
+
+</codepre>
+
+<deploy>
+
+## 部署 & 体验
+
+<appcenter>
+
+- :fire: 通过 [Serverless 应用中心](https://fcnext.console.aliyun.com/applications/create?template=start-weapp) ，
+[![Deploy with Severless Devs](https://img.alicdn.com/imgextra/i1/O1CN01w5RFbX1v45s8TIXPz_!!6000000006118-55-tps-95-28.svg)](https://fcnext.console.aliyun.com/applications/create?template=start-weapp)  该应用。 
+
+</appcenter>
+
+- 通过 [Serverless Devs Cli](https://www.serverless-devs.com/serverless-devs/install) 进行部署：
+    - [安装 Serverless Devs Cli 开发者工具](https://www.serverless-devs.com/serverless-devs/install) ，并进行[授权信息配置](https://www.serverless-devs.com/fc/config) ；
+    - 初始化项目：\`s init start-weapp -d start-weapp\`   
+    - 进入项目，并进行项目部署：\`cd start-weapp && s deploy -y\`
+
+</deploy>
+
+<appdetail id="flushContent">
+
+# 应用详情
 
 - [:octocat: 服务端源代码](https://github.com/devsapp/start-weapp/tree/main/src)
 - [:octocat: 客户端源代码](https://github.com/devsapp/weapp-client)
-  
+
 ## 效果预览
 
 可以在手机里使用你的小程序
@@ -95,3 +124,21 @@
 > - Serverless Devs 文档：https://www.github.com/serverless-devs/docs   
 > - Serverless Devs 钉钉交流群：33947367    
 > - 后端代码来自：[typescript-hapi-starter]https://github.com/BlackBoxVision/typescript-hapi-starter
+
+</appdetail>
+
+<devgroup>
+
+## 开发者社区
+
+您如果有关于错误的反馈或者未来的期待，您可以在 [Serverless Devs repo Issues](https://github.com/serverless-devs/serverless-devs/issues) 中进行反馈和交流。如果您想要加入我们的讨论组或者了解 FC 组件的最新动态，您可以通过以下渠道进行：
+
+<p align="center">
+
+| <img src="https://serverless-article-picture.oss-cn-hangzhou.aliyuncs.com/1635407298906_20211028074819117230.png" width="130px" > | <img src="https://serverless-article-picture.oss-cn-hangzhou.aliyuncs.com/1635407044136_20211028074404326599.png" width="130px" > | <img src="https://serverless-article-picture.oss-cn-hangzhou.aliyuncs.com/1635407252200_20211028074732517533.png" width="130px" > |
+|--- | --- | --- |
+| <center>微信公众号：\`serverless\`</center> | <center>微信小助手：\`xiaojiangwh\`</center> | <center>钉钉交流群：\`33947367\`</center> | 
+
+</p>
+
+</devgroup>
