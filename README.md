@@ -41,8 +41,8 @@
 
 - 通过 [Serverless Devs Cli](https://www.serverless-devs.com/serverless-devs/install) 进行部署：
     - [安装 Serverless Devs Cli 开发者工具](https://www.serverless-devs.com/serverless-devs/install) ，并进行[授权信息配置](https://www.serverless-devs.com/fc/config) ；
-    - 初始化项目：\`s init start-weapp -d start-weapp\`   
-    - 进入项目，并进行项目部署：\`cd start-weapp && s deploy -y\`
+    - 初始化项目：`s init start-weapp -d start-weapp`   
+    - 进入项目，并进行项目部署：`cd start-weapp && s deploy -y`
 
 </deploy>
 
@@ -120,11 +120,6 @@
 
 注意：每次需要修改依赖时，您需要使用此命令构建新的层，并更新函数的配置，使用新的层。
 
-> - Serverless Devs 项目：https://www.github.com/serverless-devs/serverless-devs   
-> - Serverless Devs 文档：https://www.github.com/serverless-devs/docs   
-> - Serverless Devs 钉钉交流群：33947367    
-> - 后端代码来自：[typescript-hapi-starter]https://github.com/BlackBoxVision/typescript-hapi-starter
-
 </appdetail>
 
 <devgroup>
@@ -137,7 +132,7 @@
 
 | <img src="https://serverless-article-picture.oss-cn-hangzhou.aliyuncs.com/1635407298906_20211028074819117230.png" width="130px" > | <img src="https://serverless-article-picture.oss-cn-hangzhou.aliyuncs.com/1635407044136_20211028074404326599.png" width="130px" > | <img src="https://serverless-article-picture.oss-cn-hangzhou.aliyuncs.com/1635407252200_20211028074732517533.png" width="130px" > |
 |--- | --- | --- |
-| <center>微信公众号：\`serverless\`</center> | <center>微信小助手：\`xiaojiangwh\`</center> | <center>钉钉交流群：\`33947367\`</center> | 
+| <center>微信公众号：`serverless`</center> | <center>微信小助手：`xiaojiangwh`</center> | <center>钉钉交流群：`33947367`</center> | 
 
 </p>
 
